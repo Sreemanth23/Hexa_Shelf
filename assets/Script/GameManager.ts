@@ -83,7 +83,7 @@ export class GameManager extends Component {
       let selctNode = this.HelixParentNode.children[this.SelectedNode.getSiblingIndex()].children[this.tileCreation.setIdexArray[this.SelectedNode.getSiblingIndex()][0]];
       let selectNodePos = selctNode.getPosition();
       let colordata = this.tileCreation.HexArray[this.SelectedNode.getSiblingIndex()][0];
-      if (this.SelectedNode.getSiblingIndex() == 0 || this.SelectedNode.getSiblingIndex() == 1 || this.placeOnSegment(this.SelectedNode.getSiblingIndex()) == 0) {
+      if (this.SelectedNode.getSiblingIndex() == 0 ||  this.placeOnSegment(this.SelectedNode.getSiblingIndex()) == 0) {
         selctNode.setPosition(selectNodePos.x, this.SelectedNode.getSiblingIndex() * -0.05, selectNodePos.z);
       } else {
         selctNode.setPosition(selectNodePos.x, (this.placeOnSegment(this.SelectedNode.getSiblingIndex()) * 6 + 1) * -0.05, selectNodePos.z);
@@ -104,7 +104,7 @@ export class GameManager extends Component {
 
   placeOnSegment(slected) {
     let j = [];
-    for (let i = slected; i > 1; i--) {
+    for (let i = slected; i > 0; i--) {
       let selectArray = this.tileCreation.HexArray[i - 1][0];
       if (selectArray == -1) {
         j.push(i - 1);

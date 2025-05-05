@@ -1237,8 +1237,8 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -0.005,
-      "y": 0.911,
+      "x": 0.013,
+      "y": 0.826,
       "z": 0.847
     },
     "_lrot": {
@@ -1373,7 +1373,7 @@
       "__id__": 86
     },
     "_prewarm": false,
-    "_capacity": 5,
+    "_capacity": 3,
     "_simulationSpace": 1,
     "_id": "9eS3haA2VNo5LhtKojTIWY"
   },
@@ -1391,7 +1391,7 @@
   {
     "__type__": "cc.CurveRange",
     "mode": 0,
-    "constant": 1,
+    "constant": 0.3,
     "multiplier": 1
   },
   {
@@ -1488,7 +1488,7 @@
     "randomDirectionAmount": 0,
     "sphericalDirectionAmount": 0,
     "randomPositionAmount": 0,
-    "radius": 0.16,
+    "radius": 0.016,
     "radiusThickness": 1,
     "arcMode": 0,
     "arcSpread": 0,

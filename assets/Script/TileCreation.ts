@@ -84,6 +84,7 @@ export class TileCreation extends Component {
         this.tweenFunc();
         for (let i = 0; i < 5; i++) {
           this.HexArray[i][0] = -1;
+   
         }
       }, 0.2);
     }
@@ -111,10 +112,15 @@ export class TileCreation extends Component {
   }
 
   checkFirstElements(arrays) {
-    if (arrays.length !== 5 || arrays.some(arr => arr.length !== 18)) throw new Error("Expected 5 arrays with 18 elements each");
+    if (arrays.length !== 5 || arrays.some(arr => arr.length !== 18)) {
+        throw new Error("Expected 5 arrays with 18 elements each");
+    }
     const first = arrays[0][0];
+    if (first === -1) {
+        return false;
+    }
     return arrays.every(arr => arr[0] === first);
-  }
+}
 
   tweenFunc() {
     const allChildren = this.animNodes.flatMap(item => item.children);
@@ -132,7 +138,6 @@ export class TileCreation extends Component {
     animateChild(allChildren.length - 1);
   }
 
-  update(deltaTime: number) {}
 }
 
 
