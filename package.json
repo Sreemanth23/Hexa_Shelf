@@ -1,7 +1,8 @@
 {
-  "name": "HexaSort",
-  "uuid": "ab894361-80ea-4a0c-addc-e94120df5f1a",
+  "name": "NewProject_Hexa",
+  "uuid": "ed48bbbc-296e-46cc-9f82-36d321ea040a",
+  "version": "3.4.2",
   "creator": {
-    "version": "3.8.6"
+    "version": "3.4.2"
   }
 }

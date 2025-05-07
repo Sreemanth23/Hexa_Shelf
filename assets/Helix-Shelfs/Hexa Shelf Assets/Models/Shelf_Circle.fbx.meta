@@ -1,0 +1,76 @@
+{
+  "ver": "2.1.10",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "762d98a2-9002-4456-abd8-da36ec8b4c63",
+  "files": [],
+  "subMetas": {
+    "141fe": {
+      "importer": "gltf-mesh",
+      "uuid": "762d98a2-9002-4456-abd8-da36ec8b4c63@141fe",
+      "displayName": "",
+      "id": "141fe",
+      "name": "circle.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0b7b5": {
+      "importer": "gltf-material",
+      "uuid": "762d98a2-9002-4456-abd8-da36ec8b4c63@0b7b5",
+      "displayName": "",
+      "id": "0b7b5",
+      "name": "phong1.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ec366": {
+      "importer": "gltf-scene",
+      "uuid": "762d98a2-9002-4456-abd8-da36ec8b4c63@ec366",
+      "displayName": "",
+      "id": "ec366",
+      "name": "Shelf_Circle.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "redirect": "762d98a2-9002-4456-abd8-da36ec8b4c63@ec366",
+    "assetFinder": {
+      "meshes": [
+        "762d98a2-9002-4456-abd8-da36ec8b4c63@141fe"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "762d98a2-9002-4456-abd8-da36ec8b4c63@0b7b5"
+      ],
+      "scenes": [
+        "762d98a2-9002-4456-abd8-da36ec8b4c63@ec366"
+      ]
+    }
+  }
+}
